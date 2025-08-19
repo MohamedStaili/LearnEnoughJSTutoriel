@@ -3,8 +3,14 @@
 <head>
 <title>Learn Enough JavaScript</title>
 <meta charset="utf-8">
-<script>alert("hello , world");
-alert("hello wordl");
+<script>
+    let now = new Date();
+    const daysOfWeeks = ['Sunday' , 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday',
+        'Saturday'
+    ] ;
+    const dayOfWeek = daysOfWeeks[now.getDay()];
+    alert(`Hallo World , Happy ${dayOfWeek}`);
+
 </script>
 </head>
 <body>
